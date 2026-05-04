@@ -1,0 +1,16 @@
+&kgecpp
+    outdir = '../../../',  
+    prefix = 'zn',
+    ac = .true.,
+    dc = .false.,
+    calculation = 'tensor',
+    sigma1_exact = .true.,
+    calculate_sigma2 = .true.,
+    nw = 1000,
+    decomposition = .false.,
+    deltarep = '2g',
+    deltawidth = 0.105
+    wmin = 3.30853e-05,
+    wmax = 4.9628e-05,
+    writegm = .false.,
+/
